@@ -1,0 +1,45 @@
+#pong {
+	position: relative;
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  #paddle-left, #paddle-right {
+	position: absolute;
+	width: 10px;
+	height: 60px;
+	background: #FFF;
+  }
+
+  #paddle-left {
+	left: 10px;
+  }
+
+  #paddle-right {
+	right: 10px;
+  }
+
+  #ball {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 10px;
+	height: 10px;
+	background: #FFF;
+	border-radius: 50%;
+  }
+
+  #score {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #FFF;
+	font-size: 24px;
+  }
